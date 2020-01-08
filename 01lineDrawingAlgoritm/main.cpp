@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;\
+    MainWindow w;
 
     QImage image(800, 800, QImage::Format_RGB888);
     QRgb value;
