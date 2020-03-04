@@ -62,13 +62,6 @@ QImage ddaLineAlgorithm(int x1, int y1, int x2, int y2,QImage image,QRgb value)
     return image;
 }
 
-//sanchit raina
-//aniartihcnas
-//tihcnas aniar
-//imsotired
-//sortlyf
-//unananmouslyyours
-
 QImage bresenhamCircleAlgorithm(int Xc, int Yc, int r,QImage image,QRgb value)
 {
         int x=Xc, y=Yc;
