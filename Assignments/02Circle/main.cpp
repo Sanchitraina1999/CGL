@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     value=qRgb(0,255,0);
 
     /*Pattern Designing*/
-    //image.setPixel(400,400,value);    //center coordinate
+    //image.setPixel(400,400,value);    //center coordinate //
 
     //outer Circle
     image=ddaCircleAlgorithm(400,400,200,image,value);    //to be done using bresenham's Circle Drawing Algorithm
