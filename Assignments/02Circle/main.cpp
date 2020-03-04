@@ -19,14 +19,15 @@ int main(int argc, char *argv[])
     value=qRgb(0,255,0);
 
     /*Pattern Designing*/
-    image.setPixel(400,400,value);
+    //image.setPixel(400,400,value);    //center coordinate
+
     //outer Circle
     image=ddaCircleAlgorithm(400,400,200,image,value);    //to be done using bresenham's Circle Drawing Algorithm
 
     //inner Triangle
-    image=ddaLineAlgorithm(400,200,575,500,image,value);
-    image=ddaLineAlgorithm(400,200,225,500,image,value);
-    image=ddaLineAlgorithm(225,500,575,500,image,value);
+    image=ddaLineAlgorithm(400,200,573,500,image,value);
+    image=ddaLineAlgorithm(400,200,227,500,image,value);
+    image=ddaLineAlgorithm(227,500,573,500,image,value);
 
     //inner Circle
     image=ddaCircleAlgorithm(400,400,100,image,value);
