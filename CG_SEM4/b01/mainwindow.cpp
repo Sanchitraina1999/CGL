@@ -19,6 +19,7 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
 void MainWindow::on_textEdit_textChanged()
 {
     QString str=ui->textEdit->toPlainText();
